@@ -2197,16 +2197,17 @@ a:visited {
     font-size: 1.8rem;
   }
   .review-header-p {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    width: 50rem;
   }
   .review-container {
     gap: 5rem;
   }
   .review-cards-container {
-    gap: 3rem;
+    gap: 2rem;
   }
   .review-cards {
-    padding: 3rem;
+    padding: 2rem;
   }
   .star-img {
     max-width: 20rem;
