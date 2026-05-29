@@ -77,8 +77,8 @@ function About() {
               />
             </div>
             <div className="cards-description">
-              <div>5</div>
-              <div>Years of Experience</div>
+              <div className="card-div">5</div>
+              <div className="card-div">Years of Experience</div>
             </div>
           </div>
           <div className="about-cards-section">
@@ -86,8 +86,8 @@ function About() {
               <img src="/Images/happiness.png" alt="" className="about-logo" />
             </div>
             <div className="cards-description">
-              <div>500+</div>
-              <div>Happy Customers</div>
+              <div className="card-div">500+</div>
+              <div className="card-div">Happy Customers</div>
             </div>
           </div>
           <div className="about-cards-section">
@@ -99,8 +99,8 @@ function About() {
               />
             </div>
             <div className="cards-description">
-              <div>500+</div>
-              <div>Custom Cakes</div>
+              <div className="card-div">500+</div>
+              <div className="card-div">Custom Cakes</div>
             </div>
           </div>
           <div className="about-cards-section">
@@ -108,8 +108,8 @@ function About() {
               <img src="/Images/charity.png" alt="" className="about-logo" />
             </div>
             <div className="cards-description">
-              <div>100%</div>
-              <div>Made with Love</div>
+              <div className="card-div">100%</div>
+              <div className="card-div">Made with Love</div>
             </div>
           </div>
         </div>

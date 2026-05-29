@@ -2128,17 +2128,59 @@ a:visited {
   }
   .cards-description div {
     font-size: 1.5rem;
-    width: 20rem;
+    width: 15rem;
     gap: 5rem;
+  }
+  .card-div {
+    width: 10rem;
   }
   .feature-card2 {
     margin: 5rem 0rem;
     padding: 2rem;
+    gap: 1rem;
   }
   .cards-description2 div,
   .cards-description2 h1 {
     font-size: 1.2rem;
-    width: 20rem;
+    width: 10rem;
     gap: 5rem;
+  }
+
+  .about-cards-section {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+  }
+  .cards-description2 p {
+    width: 15rem;
+  }
+  .about-logo2 {
+    max-width: 5rem;
+  }
+  .product-container-desc {
+    gap: 5rem;
+  }
+  .product-container-desc h1 {
+    font-size: 4rem;
+    width: 12rem;
+  }
+  .product-p {
+    font-size: 1.5rem;
+    width: 30rem;
+  }
+  .products-container {
+    gap: 5rem;
+  }
+  .cake-grid-container,
+  .cupcake-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .grid-button {
+    grid-column: 3/1;
+    align-self: center;
+  }
+  .cake-img {
+    max-width: 20rem;
   }
 }
