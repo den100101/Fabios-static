@@ -71,9 +71,7 @@ function Footer() {
               </Link>
             </li>
             <li>
-              <Link to="/reviews" className="footer-a">
-                Reviews
-              </Link>
+              <Link to="/reviews" className="footer-a"></Link>
             </li>
           </ul>
         </div>
@@ -88,7 +86,7 @@ function Footer() {
               />
             </div>
             <div>
-              <p>0917 775 1213</p>
+              <p className="footer-a footer-a-tag">0917 775 1213</p>
             </div>
           </div>
           <div className="contacts">
@@ -104,7 +102,7 @@ function Footer() {
                 <a
                   href="https://www.instagram.com/fabios.cakesandpastries/"
                   target="blank"
-                  className="footer-a"
+                  className="footer-a footer-a-tag"
                 >
                   fabios.cakesandpastries
                 </a>
@@ -124,7 +122,7 @@ function Footer() {
                 <a
                   href="https://maps.app.goo.gl/1aKFf3796Txjhowe7"
                   target="blank"
-                  className="footer-a"
+                  className="footer-a footer-a-tag"
                 >
                   Pioneer Street Mandaluyong , Mandaluyong, Philippines, 1550
                 </a>

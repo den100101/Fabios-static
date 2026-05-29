@@ -29,7 +29,7 @@ function OurWork() {
               </div>
 
               <div>
-                <p className="card-p" cake-p>
+                <p className="card-p cake-p">
                   Custom designs for birthdays and celebrations.
                 </p>
               </div>
@@ -49,7 +49,7 @@ function OurWork() {
               </div>
 
               <div>
-                <p className="card-p" cake-p>
+                <p className="card-p cake-p">
                   Elegant cakes made for graduation milestones.
                 </p>
               </div>
@@ -70,7 +70,7 @@ function OurWork() {
               </div>
 
               <div>
-                <p className="card-p" cake-p>
+                <p className="card-p cake-p">
                   Sweet and thoughtful cakes for Mother’s Day celebrations.
                 </p>
               </div>
