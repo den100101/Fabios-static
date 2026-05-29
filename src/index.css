@@ -2183,4 +2183,36 @@ a:visited {
   .cake-img {
     max-width: 20rem;
   }
+  .modal-title {
+    justify-content: center;
+    gap: 20rem;
+  }
+  .modal-button {
+    font-size: 1rem;
+    width: 20px;
+    height: 20px;
+  }
+  .revie-header-1,
+  .review-header-2 {
+    font-size: 1.8rem;
+  }
+  .review-header-p {
+    font-size: 1.7rem;
+  }
+  .review-container {
+    gap: 5rem;
+  }
+  .review-cards-container {
+    gap: 3rem;
+  }
+  .review-cards {
+    padding: 3rem;
+  }
+  .star-img {
+    max-width: 20rem;
+  }
+  .review-statement {
+    font-size: 1.7rem;
+    width: 20rem;
+  }
 }
