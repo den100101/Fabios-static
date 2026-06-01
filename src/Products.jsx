@@ -2,7 +2,6 @@ import { useState } from "react";
 import Navigation from "./components/nav";
 import Footer from "./components/footer";
 import Modal from "./components/modal";
-import ModalCupcakes from "./components/modalcc";
 
 const cakes = Array.from(
   { length: 6 },
@@ -15,7 +14,7 @@ const cupcakes = Array.from(
 );
 
 function Products() {
-  const [modalType, setModalType] = useState(null);
+  const [openModal, setOpenmodal] = useState(false);
   return (
     <>
       <Navigation />
@@ -42,61 +41,21 @@ function Products() {
           <h2>Handcrafted Customized Cakes for Every Celebration</h2>
         </div>
         <div className="product-card-container">
-          <div className="card-cake">
-            <div className="cake-grid-container">
-              {cakes.map((cake, i) => (
-                <div key={i}>
-                  {" "}
-                  <img
-                    src={cake}
-                    alt="cake"
-                    className="cake-img"
-                    loading="lazy"
-                  />
-                </div>
-              ))}
-              <div className="grid-button">
-                <button
-                  className="view-button"
-                  onClick={() => {
-                    setModalType("cakes");
-                  }}
-                >
-                  View all cakes
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="card-cake">
-            <div className="cupcake-grid-container">
-              {cupcakes.map((cupcake, i) => (
-                <div key={i}>
-                  <img
-                    src={cupcake}
-                    alt="cupcake"
-                    className="cupcake-img"
-                    loading="lazy"
-                  />
-                </div>
-              ))}
-              <div className="grid-button">
-                <button
-                  className="view-button"
-                  onClick={() => {
-                    setModalType("cupcakes");
-                  }}
-                >
-                  View all cupcakes
-                </button>
-              </div>
-            </div>
+          <div className="product-grid-container">
+            {cakes.map((cake) => (
+              <img src={cake} alt="" className="cake-img" />
+            ))}
+            {cupcakes.map((cupcake) => (
+              <img src={cupcake} alt="" className="cupcake-img" />
+            ))}
           </div>
         </div>
+        <button className="view-button" onClick={() => setOpenmodal(true)}>
+          View All Products
+        </button>
       </div>
       <Footer />
-      {modalType === "cakes" && <Modal ModalClose={setModalType} />}
-
-      {modalType === "cupcakes" && <ModalCupcakes ModalClose={setModalType} />}
+      {openModal && <Modal ModalClose={setOpenmodal} />}
     </>
   );
 }
